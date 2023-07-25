@@ -1,0 +1,43 @@
+#board {
+    width: 306px;
+    height: 306px;
+    margin: 0 auto;
+    border: 5px solid #d5d5d5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    border: 3px solid #dfdfdf;
+    margin: auto;
+}
+.winning-line {
+    background-color: lightgreen;
+  }
+.bloqued {
+    pointer-events: none;
+}
+
+.playerX {
+    color: #90c0fe;
+}
+
+.playerO {
+    color: #f18080;
+}
+
+.modal {
+    display:flex;
+    width: 100%;
+    align-items:center ;
+    justify-content: center;
+  }
+
